@@ -13,3 +13,6 @@ function total(){
         number.value= "Error";
     }
 }
+function backspace(){
+    number.value=number.value.slice(0,-1)
+}
