@@ -10,7 +10,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Cinzel:wght@400..900&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="/style.css">
+    <link rel="stylesheet" href="/Calculator/style.css">
 </head>
 <body>
     <div class="container">
@@ -20,7 +20,7 @@
                
            <div class="input">
            <input type="text" class="number" id="number"></div>
-                <button onclick="clears()">C</button>
+                <button onclick="clears()" class="clear-button">C</button>
                 
             </div>
     <div class="row">
@@ -39,7 +39,7 @@
         <button onclick="calculate('7')">7</button>
         <button onclick="calculate('8')">8</button>
         <button onclick="calculate('9')">9</button>
-        <button onclick="calculate('*')">*</button>
+        <button onclick="calculate('*')">x</button>
     </div>
     <div class="row">
         <button onclick="calculate('0')">0</button>
@@ -49,10 +49,13 @@
     </div>
     <div class="row">
         <button onclick="backspace()">X</button>
+        <button onclick="calculate('^')">^</button>
+        <button onclick="calculate('%')">%</button>
+        <button onclick="calculate('^')">^</button>
       </div>
     </div>
         </div>
     </div>
 </body>
-<script src="/script.js"></script>
+<script src="/Calculator/script.js"></script>
 </html>
